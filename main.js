@@ -602,7 +602,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var UserServiceService = /** @class */ (function () {
     function UserServiceService(http) {
         this.http = http;
-        this.api = 'http://5b0620abff98d70014f38790.mockapi.io/userlist/';
+        this.api = 'https://5b0620abff98d70014f38790.mockapi.io/userlist/';
     }
     UserServiceService.prototype.GetAllUser = function () {
         return this.http.get(this.api);
